@@ -24,6 +24,7 @@ resource "aws_iam_user" "s3_reader" {
   tags = {
     Project   = "Project4"
     ManagedBy = "Terraform"
+    Purpose   = "Version Control"
   }
 }
 
